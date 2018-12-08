@@ -144,14 +144,6 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
 
-# Email config
-
-EMAIL_HOST = 'smtp.mail.ru'
-EMAIL_PORT = 2525
-EMAIL_HOST_USER = 'krupin_anton@mail.ru'  # этот адрес нужно использовать в качестве адреса, с которого отправлено письмо.
-EMAIL_HOST_PASSWORD = 'Z1qaHS!9'
-EMAIL_USE_TLS = True
-
 try:
     from .local_settings import *
 except ImportError:
